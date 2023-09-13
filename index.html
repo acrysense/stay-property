@@ -54,21 +54,12 @@
 						</ul>
 					</nav>
 					<div class="c-language header__language">
-						<button class="c-language__trigger">
-							<svg>
-								<use xlink:href="img/sprite.svg#icon-caret"></use>
-							</svg>
-							<span>RU</span>
-						</button>
-						<div class="c-language__dropdown">
-							<ul class="c-language__list">
-								<li class="c-language__item">
-									<button class="c-language__btn">EN</button>
-								</li>
-								<li class="c-language__item">
-									<button class="c-language__btn">AR</button>
-								</li>
-							</ul>
+						<div class="c-language__select">
+							<select class="js-select">
+								<option value="ru">RU</option>
+								<option value="en">EN</option>
+								<option value="ar">AR</option>
+							</select>
 						</div>
 					</div>
 				</div>
@@ -316,46 +307,48 @@
 								</div>
 							</div>
 							<div class="real-estate__body">
-								<div class="real-estate__main">
-									<a href="#" class="real-estate__title">The S Tower</a>
-									<div class="real-estate__group">
-										<span class="real-estate__price">$ 2 209 000</span>
-										<span class="real-estate__help">квартиры от</span>
-									</div>
-								</div>
-								<div class="real-estate__details">
-									<div class="real-estate__parameters">
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bed"></use>
-											</svg>
-											<span>3</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bathroom"></use>
-											</svg>
-											<span>1</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-size"></use>
-											</svg>
-											<span>188 фут<sup>²</sup></span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-stairs"></use>
-											</svg>
-											<span>75 из 110</span>
+								<div class="real-estate__body-inner">
+									<div class="real-estate__main">
+										<a href="#" class="real-estate__title modal-btn" data-id="modal-project">The S Tower</a>
+										<div class="real-estate__group">
+											<span class="real-estate__price">$ 2 209 000</span>
+											<span class="real-estate__help">квартиры от</span>
 										</div>
 									</div>
-									<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
-										<span>Узнать подробнее</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-										</svg>
-									</a>
+									<div class="real-estate__details">
+										<div class="real-estate__parameters">
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bed"></use>
+												</svg>
+												<span>3</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bathroom"></use>
+												</svg>
+												<span>1</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-size"></use>
+												</svg>
+												<span>188 фут<sup>²</sup></span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-stairs"></use>
+												</svg>
+												<span>75 из 110</span>
+											</div>
+										</div>
+										<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
+											<span>Узнать подробнее</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</article>
@@ -393,46 +386,48 @@
 								</div>
 							</div>
 							<div class="real-estate__body">
-								<div class="real-estate__main">
-									<a href="#" class="real-estate__title">SOBHA One</a>
-									<div class="real-estate__group">
-										<span class="real-estate__price">$ 2 209 000</span>
-										<span class="real-estate__help">квартиры от</span>
-									</div>
-								</div>
-								<div class="real-estate__details">
-									<div class="real-estate__parameters">
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bed"></use>
-											</svg>
-											<span>3</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bathroom"></use>
-											</svg>
-											<span>1</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-size"></use>
-											</svg>
-											<span>188 фут<sup>²</sup></span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-stairs"></use>
-											</svg>
-											<span>75 из 110</span>
+								<div class="real-estate__body-inner">
+									<div class="real-estate__main">
+										<a href="#" class="real-estate__title modal-btn" data-id="modal-project">SOBHA One</a>
+										<div class="real-estate__group">
+											<span class="real-estate__price">$ 2 209 000</span>
+											<span class="real-estate__help">квартиры от</span>
 										</div>
 									</div>
-									<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
-										<span>Узнать подробнее</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-										</svg>
-									</a>
+									<div class="real-estate__details">
+										<div class="real-estate__parameters">
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bed"></use>
+												</svg>
+												<span>3</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bathroom"></use>
+												</svg>
+												<span>1</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-size"></use>
+												</svg>
+												<span>188 фут<sup>²</sup></span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-stairs"></use>
+												</svg>
+												<span>75 из 110</span>
+											</div>
+										</div>
+										<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
+											<span>Узнать подробнее</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</article>
@@ -470,46 +465,48 @@
 								</div>
 							</div>
 							<div class="real-estate__body">
-								<div class="real-estate__main">
-									<a href="#" class="real-estate__title">SOBHA Seahaven Marina Harbour</a>
-									<div class="real-estate__group">
-										<span class="real-estate__price">$ 3 656 000</span>
-										<span class="real-estate__help">квартиры от</span>
-									</div>
-								</div>
-								<div class="real-estate__details">
-									<div class="real-estate__parameters">
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bed"></use>
-											</svg>
-											<span>3</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bathroom"></use>
-											</svg>
-											<span>1</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-size"></use>
-											</svg>
-											<span>188 фут<sup>²</sup></span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-stairs"></use>
-											</svg>
-											<span>75 из 110</span>
+								<div class="real-estate__body-inner">
+									<div class="real-estate__main">
+										<a href="#" class="real-estate__title modal-btn" data-id="modal-project">SOBHA Seahaven Marina Harbour</a>
+										<div class="real-estate__group">
+											<span class="real-estate__price">$ 3 656 000</span>
+											<span class="real-estate__help">квартиры от</span>
 										</div>
 									</div>
-									<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
-										<span>Узнать подробнее</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-										</svg>
-									</a>
+									<div class="real-estate__details">
+										<div class="real-estate__parameters">
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bed"></use>
+												</svg>
+												<span>3</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bathroom"></use>
+												</svg>
+												<span>1</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-size"></use>
+												</svg>
+												<span>188 фут<sup>²</sup></span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-stairs"></use>
+												</svg>
+												<span>75 из 110</span>
+											</div>
+										</div>
+										<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
+											<span>Узнать подробнее</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</article>
@@ -547,46 +544,48 @@
 								</div>
 							</div>
 							<div class="real-estate__body">
-								<div class="real-estate__main">
-									<a href="#" class="real-estate__title">SOBHA Hartland 2</a>
-									<div class="real-estate__group">
-										<span class="real-estate__price">$ 22 717 000</span>
-										<span class="real-estate__help">квартиры от</span>
-									</div>
-								</div>
-								<div class="real-estate__details">
-									<div class="real-estate__parameters">
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bed"></use>
-											</svg>
-											<span>3</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bathroom"></use>
-											</svg>
-											<span>1</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-size"></use>
-											</svg>
-											<span>188 фут<sup>²</sup></span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-stairs"></use>
-											</svg>
-											<span>75 из 110</span>
+								<div class="real-estate__body-inner">
+									<div class="real-estate__main">
+										<a href="#" class="real-estate__title modal-btn" data-id="modal-project">SOBHA Hartland 2</a>
+										<div class="real-estate__group">
+											<span class="real-estate__price">$ 22 717 000</span>
+											<span class="real-estate__help">квартиры от</span>
 										</div>
 									</div>
-									<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
-										<span>Узнать подробнее</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-										</svg>
-									</a>
+									<div class="real-estate__details">
+										<div class="real-estate__parameters">
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bed"></use>
+												</svg>
+												<span>3</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bathroom"></use>
+												</svg>
+												<span>1</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-size"></use>
+												</svg>
+												<span>188 фут<sup>²</sup></span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-stairs"></use>
+												</svg>
+												<span>75 из 110</span>
+											</div>
+										</div>
+										<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
+											<span>Узнать подробнее</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</article>
@@ -624,46 +623,48 @@
 								</div>
 							</div>
 							<div class="real-estate__body">
-								<div class="real-estate__main">
-									<a href="#" class="real-estate__title">SOBHA Hartland 2</a>
-									<div class="real-estate__group">
-										<span class="real-estate__price">$ 22 717 000</span>
-										<span class="real-estate__help">квартиры от</span>
-									</div>
-								</div>
-								<div class="real-estate__details">
-									<div class="real-estate__parameters">
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bed"></use>
-											</svg>
-											<span>3</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bathroom"></use>
-											</svg>
-											<span>1</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-size"></use>
-											</svg>
-											<span>188 фут<sup>²</sup></span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-stairs"></use>
-											</svg>
-											<span>75 из 110</span>
+								<div class="real-estate__body-inner">
+									<div class="real-estate__main">
+										<a href="#" class="real-estate__title modal-btn" data-id="modal-project">SOBHA Hartland 2</a>
+										<div class="real-estate__group">
+											<span class="real-estate__price">$ 22 717 000</span>
+											<span class="real-estate__help">квартиры от</span>
 										</div>
 									</div>
-									<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
-										<span>Узнать подробнее</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-										</svg>
-									</a>
+									<div class="real-estate__details">
+										<div class="real-estate__parameters">
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bed"></use>
+												</svg>
+												<span>3</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bathroom"></use>
+												</svg>
+												<span>1</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-size"></use>
+												</svg>
+												<span>188 фут<sup>²</sup></span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-stairs"></use>
+												</svg>
+												<span>75 из 110</span>
+											</div>
+										</div>
+										<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
+											<span>Узнать подробнее</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</article>
@@ -701,46 +702,48 @@
 								</div>
 							</div>
 							<div class="real-estate__body">
-								<div class="real-estate__main">
-									<a href="#" class="real-estate__title">SOBHA Hartland 2</a>
-									<div class="real-estate__group">
-										<span class="real-estate__price">$ 22 717 000</span>
-										<span class="real-estate__help">квартиры от</span>
-									</div>
-								</div>
-								<div class="real-estate__details">
-									<div class="real-estate__parameters">
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bed"></use>
-											</svg>
-											<span>3</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-bathroom"></use>
-											</svg>
-											<span>1</span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-size"></use>
-											</svg>
-											<span>188 фут<sup>²</sup></span>
-										</div>
-										<div class="real-estate__parameters-item">
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-stairs"></use>
-											</svg>
-											<span>75 из 110</span>
+								<div class="real-estate__body-inner">
+									<div class="real-estate__main">
+										<a href="#" class="real-estate__title modal-btn" data-id="modal-project">SOBHA Hartland 2</a>
+										<div class="real-estate__group">
+											<span class="real-estate__price">$ 22 717 000</span>
+											<span class="real-estate__help">квартиры от</span>
 										</div>
 									</div>
-									<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
-										<span>Узнать подробнее</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-										</svg>
-									</a>
+									<div class="real-estate__details">
+										<div class="real-estate__parameters">
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bed"></use>
+												</svg>
+												<span>3</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-bathroom"></use>
+												</svg>
+												<span>1</span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-size"></use>
+												</svg>
+												<span>188 фут<sup>²</sup></span>
+											</div>
+											<div class="real-estate__parameters-item">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-stairs"></use>
+												</svg>
+												<span>75 из 110</span>
+											</div>
+										</div>
+										<a href="#" class="real-estate__link modal-btn" data-id="modal-project">
+											<span>Узнать подробнее</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</article>
