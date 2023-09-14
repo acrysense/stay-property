@@ -10,6 +10,13 @@
 	<meta property="og:description" content="Описание">
 	<meta property="og:url" content="/">
 	<meta property="og:site_name" content="STAYPROPERTY">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 	<!-- styles -->
 	<link rel="stylesheet" href="css/vendor.min.css">
 	<link rel="stylesheet" href="css/app.min.css">
@@ -20,7 +27,7 @@
 	<div class="wrapper">
 		<!-- content -->
 		<!-- header -->
-		<header class="header" id="header">
+		<header class="header" id="header" data-aos="fade-in">
 			<div class="container">
 				<div class="header__wrapper">
 					<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
@@ -70,8 +77,8 @@
 			<!-- main -->
 			<section class="main" id="main">
 				<div class="container">
-					<div class="main__slider">
-						<div class="main__slider-wrapper">
+					<div class="main__slider" data-aos="fade-up">
+						<div class="main__slider-wrapper" data-aos="fade-in">
 							<div class="swiper">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
@@ -148,33 +155,33 @@
 				<div class="container">
 					<div class="about__wrapper">
 						<div class="about__left">
-							<h2 class="about__heading">StayProperty</h2>
-							<div class="about__content">
+							<h2 class="about__heading" data-aos="fade-up">StayProperty</h2>
+							<div class="about__content" data-aos="fade-up">
 								<p>Фундаментом нашей деятельности является принцип «Интересы клиента превыше всего». Уникальный опыт, накопленный за 12 лет работы на рынке недвижимости, позволяет нам оперативно подбирать объекты недвижимости с учетом всех пожеланий заказчика. </p>
 								<p>8 представительств агентства недвижимости StayProperty открыты в 6 странах: Турции, России, Казахстане, Украине, ОАЭ и на Северном Кипре. </p>
 							</div>
 							<div class="about__stats about__stats--desktop">
-								<div class="about__stats-item">
+								<div class="about__stats-item" data-aos="fade-up">
 									<span class="about__value">> 10 000</span>
 									<div class="about__help">За годы работы наши сотрудники совершили более 10 000 успешных сделок</div>
 								</div>
-								<div class="about__stats-item">
+								<div class="about__stats-item" data-aos="fade-up">
 									<span class="about__value">> 6 000</span>
 									<div class="about__help">Помогли клиентам переехать в лучшую жизнь,  стабильно получать пассивный доход или выгодно вложить средства</div>
 								</div>
 							</div>
 						</div>
 						<div class="about__right">
-							<h3 class="about__subtitle">Агентство недвижимости, оказывающее услуги полного цикла в сфере купли-продажи апартаментов в Турции, Северном Кипре и ОАЭ</h3>
-							<picture class="about__img">
+							<h3 class="about__subtitle" data-aos="fade-up">Агентство недвижимости, оказывающее услуги полного цикла в сфере купли-продажи апартаментов в Турции, Северном Кипре и ОАЭ</h3>
+							<picture class="about__img" data-aos="fade-up">
 								<img src="img/about-01.jpg" alt="Image">
 							</picture>
 							<div class="about__stats about__stats--mobile">
-								<div class="about__stats-item">
+								<div class="about__stats-item" data-aos="fade-up">
 									<span class="about__value">> 10 000</span>
 									<div class="about__help">За годы работы наши сотрудники совершили более 10 000 успешных сделок</div>
 								</div>
-								<div class="about__stats-item">
+								<div class="about__stats-item" data-aos="fade-up">
 									<span class="about__value">> 6 000</span>
 									<div class="about__help">Помогли клиентам переехать в лучшую жизнь,  стабильно получать пассивный доход или выгодно вложить средства</div>
 								</div>
@@ -188,10 +195,10 @@
 			<section class="benefits section-indent" id="benefits">
 				<div class="container">
 					<div class="section-heading">
-						<h2 class="section-heading__title">Почему работать с нами выгоднее, <br>чем приобретать недвижимость <br>в Дубае самостоятельно? </h2>
+						<h2 class="section-heading__title" data-aos="fade-up">Почему работать с нами выгоднее, <br>чем приобретать недвижимость <br>в Дубае самостоятельно? </h2>
 					</div>
 					<div class="benefits__wrapper">
-						<article class="benefits__item">
+						<article class="benefits__item" data-aos="fade-up">
 							<picture class="benefits__img">
 								<img src="img/benefits-01.svg" alt="Icon">
 							</picture>
@@ -200,7 +207,7 @@
 								<span class="benefits__number">01</span>
 							</div>
 						</article>
-						<article class="benefits__item">
+						<article class="benefits__item" data-aos="fade-up">
 							<picture class="benefits__img">
 								<img src="img/benefits-02.svg" alt="Icon">
 							</picture>
@@ -209,7 +216,7 @@
 								<span class="benefits__number">02</span>
 							</div>
 						</article>
-						<article class="benefits__item">
+						<article class="benefits__item" data-aos="fade-up">
 							<picture class="benefits__img">
 								<img src="img/benefits-03.svg" alt="Icon">
 							</picture>
@@ -218,7 +225,7 @@
 								<span class="benefits__number">03</span>
 							</div>
 						</article>
-						<article class="benefits__item">
+						<article class="benefits__item" data-aos="fade-up">
 							<picture class="benefits__img">
 								<img src="img/benefits-04.svg" alt="Icon">
 							</picture>
@@ -235,10 +242,10 @@
 			<section class="services section-indent" id="services">
 				<div class="container">
 					<div class="section-heading">
-						<h2 class="section-heading__title">Наша компания осуществляет</h2>
+						<h2 class="section-heading__title" data-aos="fade-up">Наша компания осуществляет</h2>
 					</div>
 					<div class="services__wrapper">
-						<article class="services__item">
+						<article class="services__item" data-aos="fade-up">
 							<picture class="services__img">
 								<img src="img/services-01.jpg" alt="Image">
 							</picture>
@@ -246,7 +253,7 @@
 								<h3 class="services__title">Трансфер денежных средств в банки ОАЭ</h3>
 							</div>
 						</article>
-						<article class="services__item">
+						<article class="services__item" data-aos="fade-up">
 							<picture class="services__img">
 								<img src="img/services-02.jpg" alt="Image">
 							</picture>
@@ -254,7 +261,7 @@
 								<h3 class="services__title">Оформление налогового резидентства Дубай: 0% НДФЛ</h3>
 							</div>
 						</article>
-						<article class="services__item">
+						<article class="services__item" data-aos="fade-up">
 							<picture class="services__img">
 								<img src="img/services-03.jpg" alt="Image">
 							</picture>
@@ -270,10 +277,10 @@
 			<section class="real-estate section-indent" id="real-estate">
 				<div class="container">
 					<div class="section-heading">
-						<h2 class="section-heading__title">Мы сделаем для вас лучшее предложение <br>на рынке недвижимости</h2>
+						<h2 class="section-heading__title" data-aos="fade-up">Мы сделаем для вас лучшее предложение <br>на рынке недвижимости</h2>
 					</div>
 					<div class="real-estate__wrapper">
-						<article class="real-estate__item">
+						<article class="real-estate__item" data-aos="fade-up">
 							<div class="real-estate__slider">
 								<div class="swiper">
 									<div class="swiper-wrapper">
@@ -352,7 +359,7 @@
 								</div>
 							</div>
 						</article>
-						<article class="real-estate__item">
+						<article class="real-estate__item" data-aos="fade-up">
 							<div class="real-estate__slider">
 								<div class="swiper">
 									<div class="swiper-wrapper">
@@ -431,7 +438,7 @@
 								</div>
 							</div>
 						</article>
-						<article class="real-estate__item">
+						<article class="real-estate__item" data-aos="fade-up">
 							<div class="real-estate__slider">
 								<div class="swiper">
 									<div class="swiper-wrapper">
@@ -510,7 +517,7 @@
 								</div>
 							</div>
 						</article>
-						<article class="real-estate__item">
+						<article class="real-estate__item" data-aos="fade-up">
 							<div class="real-estate__slider">
 								<div class="swiper">
 									<div class="swiper-wrapper">
@@ -589,7 +596,7 @@
 								</div>
 							</div>
 						</article>
-						<article class="real-estate__item">
+						<article class="real-estate__item" data-aos="fade-up">
 							<div class="real-estate__slider">
 								<div class="swiper">
 									<div class="swiper-wrapper">
@@ -668,7 +675,7 @@
 								</div>
 							</div>
 						</article>
-						<article class="real-estate__item">
+						<article class="real-estate__item" data-aos="fade-up">
 							<div class="real-estate__slider">
 								<div class="swiper">
 									<div class="swiper-wrapper">
@@ -748,45 +755,45 @@
 							</div>
 						</article>
 					</div>
-					<a href="#" class="real-estate__more btn btn--black modal-btn" data-id="modal-collection">Выбрать недвижимость</a>
+					<a href="#" class="real-estate__more btn btn--black modal-btn" data-id="modal-collection" data-aos="fade-up">Выбрать недвижимость</a>
 				</div>
 			</section>
 			<!-- end of real estate -->
 			<!-- projects -->
 			<section class="projects section-indent" id="projects">
 				<div class="container">
-					<div class="projects__wrapper">
+					<div class="projects__wrapper" data-aos="fade-up">
 						<div class="projects__body">
-							<h2 class="projects__heading">ТОП-5 проектов Дубая</h2>
+							<h2 class="projects__heading" data-aos="fade-in">ТОП-5 проектов Дубая</h2>
 							<form action="#" class="projects-form projects__form">
 								<div class="projects-form__inner">
-									<div class="input-field projects-form__input">
+									<div class="input-field projects-form__input" data-aos="fade-up" data-aos-anchor=".projects" data-aos-delay="150">
 										<div class="input-field__inner">
 											<input type="text" id="projects-name" class="input-field__input" placeholder="Как Вас зовут">
 										</div>
 									</div>
-									<div class="input-field projects-form__input">
+									<div class="input-field projects-form__input" data-aos="fade-up" data-aos-anchor=".projects" data-aos-delay="150">
 										<div class="input-field__inner">
 											<input type="text" id="projects-phone" class="input-field__input js-phone-mask" placeholder="Ваш телефон">
 										</div>
 									</div>
-									<div class="input-field projects-form__input">
+									<div class="input-field projects-form__input" data-aos="fade-up" data-aos-anchor=".projects" data-aos-delay="150">
 										<div class="input-field__inner">
 											<input type="email" id="projects-email" class="input-field__input" placeholder="Ваш e-mail">
 										</div>
 									</div>
 								</div>
-								<label for="policy-checkbox" class="square-checkbox projects-form__checkbox">
+								<label for="policy-checkbox" class="square-checkbox projects-form__checkbox" data-aos="fade-up" data-aos-anchor=".projects" data-aos-delay="150">
 									<input type="checkbox" id="policy-checkbox" class="square-checkbox__input">
 									<div class="square-checkbox__group">
 										<span class="square-checkbox__icon"></span>
 										<span class="square-checkbox__title">Согласие на обработку персональных данных </span>
 									</div>
 								</label>
-								<button class="projects-form__btn btn btn--black">Скачать PDF</button>
+								<button class="projects-form__btn btn btn--black" data-aos="fade-up" data-aos-anchor=".projects" data-aos-delay="150">Скачать PDF</button>
 							</form>
 							<picture class="projects__img">
-								<img src="img/projects-img.png" alt="Image">
+								<img src="img/projects-img.png" alt="Image" data-aos="fade-in" data-aos-anchor=".projects" data-aos-delay="150">
 							</picture>
 						</div>
 					</div>
@@ -799,13 +806,13 @@
 					<div class="specialists__wrap">
 						<div class="specialists__left">
 							<div class="specialists__body">
-								<h2 class="specialists__heading"> Оставьте заявку, и наши специалисты свяжутся <br>с Вами</h2>
-								<h3 class="specialists__subtitle">Команда профессионалов уверенно говорит <br>на турецком, арабском, русском, английском, украинском и немецком языках, что позволяет свободно коммуницировать и учитывать все предпочтения и пожелания заказчика</h3>
+								<h2 class="specialists__heading" data-aos="fade-up">Оставьте заявку, и наши специалисты свяжутся <br>с Вами</h2>
+								<h3 class="specialists__subtitle" data-aos="fade-up">Команда профессионалов уверенно говорит <br>на турецком, арабском, русском, английском, украинском и немецком языках, что позволяет свободно коммуницировать и учитывать все предпочтения и пожелания заказчика</h3>
 							</div>
 						</div>
 						<div class="specialists__right">
 							<div class="specialists__wrapper">
-								<article class="specialists__item">
+								<article class="specialists__item" data-aos="fade-up">
 									<picture class="specialists__img">
 										<img src="img/specialists-01.jpg" alt="Image">
 									</picture>
@@ -817,7 +824,7 @@
 										<a href="#" class="specialists__btn btn btn--black">Оставить заявку</a>
 									</div>
 								</article>
-								<article class="specialists__item">
+								<article class="specialists__item" data-aos="fade-up">
 									<picture class="specialists__img">
 										<img src="img/specialists-02.jpg" alt="Image">
 									</picture>
@@ -838,15 +845,15 @@
 			<!-- media -->
 			<section class="media section-indent" id="media">
 				<div class="container">
-					<div class="media__wrapper" style="background-image: url(img/media-bg.jpg);">
+					<div class="media__wrapper" style="background-image: url(img/media-bg.jpg);" data-aos="fade-up">
 						<div class="media__body">
-							<h3 class="media__title">Дубай — крупнейший город ОАЭ с активно развивающейся экономикой и развитой инфраструктурой</h3>
-							<button class="media__play">
+							<h3 class="media__title" data-aos="fade-up">Дубай — крупнейший город ОАЭ с активно развивающейся экономикой и развитой инфраструктурой</h3>
+							<button class="media__play" data-aos="fade-up">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-play"></use>
 								</svg>
 							</button>
-							<div class="media__group">
+							<div class="media__group" data-aos="fade-up">
 								<span class="media__help">Смотрите короткое видео о работе нашей компании</span>
 								<span class="media__help">2:43 мин</span>
 							</div>
@@ -859,8 +866,8 @@
 			<section class="investments section-indent" id="investments">
 				<div class="container">
 					<div class="investments__top">
-						<h2 class="investments__heading">Почему стоит инвестировать в недвижимость Дубая?</h2>
-						<div class="investments__content">
+						<h2 class="investments__heading" data-aos="fade-up">Почему стоит инвестировать в недвижимость Дубая?</h2>
+						<div class="investments__content" data-aos="fade-up">
 							<p>
 								Крупнейшие торгово-развлекательные центры, самые высокие в мире небоскребы, уникальные постройки, отсутствие сейсмической активности и спокойная политическая обстановка делают город центром притяжения туристов и переселенцев со всего мира.
 								<br><br>
@@ -871,7 +878,7 @@
 					<div class="investments__wrapper">
 						<div class="investments__left">
 							<div class="investments__inner">
-								<div class="investments__item">
+								<div class="investments__item" data-aos="fade-up">
 									<picture class="investments__img">
 										<img src="img/investments-01.jpg" alt="Image">
 									</picture>
@@ -880,17 +887,17 @@
 										<span class="investments__text">Ежегодно объемы инвестиций в рынок недвижимости Дубая увеличиваются на 15%. Высокий спрос на приобретение апартаментов приводит к стабильному росту стоимости недвижимости. </span>
 									</div>
 								</div>
-								<div class="investments__item">
+								<div class="investments__item" data-aos="fade-up">
 									<picture class="investments__img">
 										<img src="img/investments-02.jpg" alt="Image">
 									</picture>
 									<div class="investments__item-inner"></div>
 								</div>
 							</div>
-							<h3 class="investments__subtitle investments__subtitle--desktop">Таким образом, недвижимость в Дубае, приобретенная для&nbsp;инвестиций, релокации или сезонного отдыха станет надежным активом и гарантией роста капиталовложений</h3>
+							<h3 class="investments__subtitle investments__subtitle--desktop" data-aos="fade-up">Таким образом, недвижимость в Дубае, приобретенная для&nbsp;инвестиций, релокации или сезонного отдыха станет надежным активом и гарантией роста капиталовложений</h3>
 						</div>
 						<div class="investments__right">
-							<div class="investments__item investments__item--vertical">
+							<div class="investments__item investments__item--vertical" data-aos="fade-up">
 								<picture class="investments__img">
 									<img src="img/investments-03.jpg" alt="Image">
 								</picture>
@@ -899,7 +906,7 @@
 									<span class="investments__text">Практически 85% населения Дубая снимают апартаменты, приносящие своим владельцам пассивный доход 5-10% годовых</span>
 								</div>
 							</div>
-							<h3 class="investments__subtitle investments__subtitle--mobile">Таким образом, недвижимость в Дубае, приобретенная для&nbsp;инвестиций, релокации или сезонного отдыха станет надежным активом и гарантией роста капиталовложений</h3>
+							<h3 class="investments__subtitle investments__subtitle--mobile" data-aos="fade-up">Таким образом, недвижимость в Дубае, приобретенная для&nbsp;инвестиций, релокации или сезонного отдыха станет надежным активом и гарантией роста капиталовложений</h3>
 						</div>
 					</div>
 				</div>
@@ -909,10 +916,10 @@
 			<section class="faq section-indent" id="faq">
 				<div class="container">
 					<div class="section-heading">
-						<h2 class="section-heading__title">Вопросы о Дубае, популярные <br>среди наших клиентов</h2>
+						<h2 class="section-heading__title" data-aos="fade-up">Вопросы о Дубае, популярные <br>среди наших клиентов</h2>
 					</div>
 					<div class="faq__wrapper c-accordeon">
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -925,7 +932,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -938,7 +945,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -951,7 +958,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -964,7 +971,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -977,7 +984,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -990,7 +997,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -1003,7 +1010,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="faq__item">
+						<div class="faq__item" data-aos="fade-up">
 							<button class="faq__trigger c-accordeon__trigger">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-caret"></use>
@@ -1025,11 +1032,11 @@
 				<div class="container">
 					<div class="contacts__top">
 						<div class="contacts__item">
-							<h2 class="contacts__heading">Контакты</h2>
+							<h2 class="contacts__heading" data-aos="fade-up">Контакты</h2>
 						</div>
 						<div class="contacts__item contacts__item--empty"></div>
 						<div class="contacts__item">
-							<div class="c-office contacts__office">
+							<div class="c-office contacts__office" data-aos="fade-up">
 								<span class="c-office__item">
 									<img src="img/flag-dubai.png" alt="Image">
 									<span>Офис в Дубаи</span>
@@ -1038,22 +1045,22 @@
 						</div>
 					</div>
 					<div class="contacts__wrapper">
-						<div class="contacts__item">
+						<div class="contacts__item" data-aos="fade-up">
 							<h3 class="contacts__subtitle">Телефон</h3>
 							<a href="tel:+9713122706" class="contacts__value">+971-312-27-06</a>
 							<a href="#" class="contacts__link">Заказать звонок</a>
 						</div>
-						<div class="contacts__item">
+						<div class="contacts__item" data-aos="fade-up">
 							<h3 class="contacts__subtitle">E-mail</h3>
 							<a href="mailto:info@stayproperty.ae" class="contacts__value">info@stayproperty.ae</a>
 						</div>
-						<div class="contacts__item">
+						<div class="contacts__item" data-aos="fade-up">
 							<h3 class="contacts__subtitle">Адрес</h3>
 							<address class="contacts__value">Sobha Hartland, Dubai, <br>United Arab Emirates</address>
 						</div>
 					</div>
-					<picture class="contacts__map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12258.209167976878!2d55.29810235526846!3d25.174158484097486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f68777f16cdc1%3A0x76f70fd1cddec0c3!2sSobha%20Realty!5e0!3m2!1suk!2sua!4v1694607032247!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<picture class="contacts__map" data-aos="fade-up">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12258.209167976878!2d55.29810235526846!3d25.174158484097486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f68777f16cdc1%3A0x76f70fd1cddec0c3!2sSobha%20Realty!5e0!3m2!1suk!2sua!4v1694607032247!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</picture>
 				</div>
 			</section>
@@ -1061,7 +1068,7 @@
 		</div>
 		<!-- end of content -->
 		<!-- footer -->
-		<footer class="footer" id="footer">
+		<footer class="footer" id="footer" data-aos="fade-in">
 			<div class="container">
 				<div class="footer__wrapper">
 					<div class="footer__block">
@@ -1487,13 +1494,15 @@
 									<img src="img/collections-01.jpg" alt="Image">
 								</picture>
 								<div class="collections__body">
-									<h3 class="collections__title">С видом на море</h3>
-									<a href="#" class="collections__link">
-										<span>Смотреть</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
-										</svg>
-									</a>
+									<div class="collections__body-inner">
+										<h3 class="collections__title">С видом на море</h3>
+										<a href="#" class="collections__link">
+											<span>Смотреть</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</article>
 							<article class="collections__item">
@@ -1501,13 +1510,15 @@
 									<img src="img/collections-02.jpg" alt="Image">
 								</picture>
 								<div class="collections__body">
-									<h3 class="collections__title">Для большой семьи</h3>
-									<a href="#" class="collections__link">
-										<span>Смотреть</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
-										</svg>
-									</a>
+									<div class="collections__body-inner">
+										<h3 class="collections__title">Для большой семьи</h3>
+										<a href="#" class="collections__link">
+											<span>Смотреть</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</article>
 							<article class="collections__item">
@@ -1515,13 +1526,15 @@
 									<img src="img/collections-03.jpg" alt="Image">
 								</picture>
 								<div class="collections__body">
-									<h3 class="collections__title">Для сдачи в аренду</h3>
-									<a href="#" class="collections__link">
-										<span>Смотреть</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
-										</svg>
-									</a>
+									<div class="collections__body-inner">
+										<h3 class="collections__title">Для сдачи в аренду</h3>
+										<a href="#" class="collections__link">
+											<span>Смотреть</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</article>
 							<article class="collections__item">
@@ -1529,13 +1542,15 @@
 									<img src="img/collections-01.jpg" alt="Image">
 								</picture>
 								<div class="collections__body">
-									<h3 class="collections__title">Идеальное соотношение <br>цена/качество</h3>
-									<a href="#" class="collections__link">
-										<span>Смотреть</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
-										</svg>
-									</a>
+									<div class="collections__body-inner">
+										<h3 class="collections__title">Идеальное соотношение <br>цена/качество</h3>
+										<a href="#" class="collections__link">
+											<span>Смотреть</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</article>
 							<article class="collections__item">
@@ -1543,13 +1558,15 @@
 									<img src="img/collections-04.jpg" alt="Image">
 								</picture>
 								<div class="collections__body">
-									<h3 class="collections__title">Максимальный комфорт</h3>
-									<a href="#" class="collections__link">
-										<span>Смотреть</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
-										</svg>
-									</a>
+									<div class="collections__body-inner">
+										<h3 class="collections__title">Максимальный комфорт</h3>
+										<a href="#" class="collections__link">
+											<span>Смотреть</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</article>
 							<article class="collections__item">
@@ -1557,13 +1574,15 @@
 									<img src="img/collections-05.jpg" alt="Image">
 								</picture>
 								<div class="collections__body">
-									<h3 class="collections__title">Высокая доходность инвестиций</h3>
-									<a href="#" class="collections__link">
-										<span>Смотреть</span>
-										<svg>
-											<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
-										</svg>
-									</a>
+									<div class="collections__body-inner">
+										<h3 class="collections__title">Высокая доходность инвестиций</h3>
+										<a href="#" class="collections__link">
+											<span>Смотреть</span>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-arrow-next-long"></use>
+											</svg>
+										</a>
+									</div>
 								</div>
 							</article>
 						</div>
